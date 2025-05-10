@@ -1,87 +1,185 @@
 .footer {
-    margin: 50px 170px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  margin: 50px 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .footer-top {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-top-left p {
-    font-size: 20px;
-    max-width: 400px;
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.footer-top-left img {
+  width: 70px;
+  border-radius: 50%;
 }
 
 .footer-top-right {
-    display: flex;
-    align-items: center;
-    gap: 35px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
 }
 
 .footer-email-input {
-    display: flex;
-    gap: 30px;
-    padding: 20px 30px;
-    border-radius: 50px;
-    background: #32323b;
-    padding-right: 80px;
+  display: flex;
+  gap: 20px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background: #32323b;
+  padding-right: 50px;
 }
 
 .footer-email-input input {
-    outline: none;
-    border: none;
-    background: transparent;
-    color: #a0a0a0;
-    font-family: Outfit;
-    font-size: 18px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #a0a0a0;
+  font-family: Outfit;
+  font-size: 18px;
 }
 
 .footer-subscribe {
-    font-size: 20px;
-    padding: 22px 50px;
-    border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    cursor: pointer;
-    transition: 0.3s;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
 }
 
 .footer-bottom-right {
-    display: flex;
-    gap: 50px;
-    margin-bottom: 50px;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
 }
 
 .footer-email-input:hover {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 .footer-subscribe:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
-@media(max-width:768px) {
-    .footer {
-        margin: 50px 70px;
-    }
+@media (max-width: 920px) {
+  .footer {
+    margin: 50px 70px;
+  }
 
-    .footer-top {
-        flex-direction: column;
-        gap: 50px;
-    }
+  .footer-top-right {
+    display: flex;
+    gap: 5px;
+  }
+  .footer-email-input {
+    padding: 10px;
+    width: 50%;
+  }
+  .footer-subscribe {
+    margin-left: 40px;
+    padding: 10px 20px;
+  }
+  .footer-top {
+    flex-direction: column;
+    gap: 50px;
+  }
 
-    .footer-bottom {
-        display: flex;
-        flex-direction: column-reverse;
-        margin-bottom: 50px;
-    }
+  .footer-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+  .footer hr {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin: 50px 40px 50px 60px;
+  }
+
+  .footer-top-right {
+    display: flex;
+    gap: 5px;
+  }
+  .footer-email-input {
+    padding: 10px;
+    width: 290px;
+  }
+  .footer-subscribe {
+    width: 90px;
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+
+    padding: 10px;
+  }
+  .footer-top {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer {
+    margin: 40px 50px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+  .footer-bottom-right {
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+  .footer-top-right {
+    display: flex;
+  }
+
+  .footer-email-input {
+    width: 110px;
+    gap: 5px;
+    padding: 10px 10px;
+    padding-right: 30px;
+  }
+
+  .footer-email-input input {
+    font-size: 15px;
+  }
+
+  .footer-subscribe {
+    width: 55px;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px 10px;
+  }
 }
