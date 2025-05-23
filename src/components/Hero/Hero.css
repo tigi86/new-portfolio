@@ -30,7 +30,7 @@
 .hero p {
   width: 50%;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 40px;
 }
 
@@ -53,8 +53,12 @@
 .hero-resume {
   border: 2px solid #df8908;
   border-radius: 30px;
-  padding: 10px 10px;
+  padding: 10px 15px;
   cursor: pointer;
+}
+.btn2 {
+  color: white;
+  text-decoration: none;
 }
 
 .hero-connect:hover {

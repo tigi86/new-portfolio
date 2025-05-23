@@ -57,6 +57,10 @@
   transition: 0.6s;
   cursor: pointer;
 }
+.ancher {
+  color: white;
+  text-decoration: none;
+}
 
 .mywork-showmore:hover {
   gap: 30px;

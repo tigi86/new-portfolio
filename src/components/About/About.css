@@ -43,8 +43,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 300;
+  line-height: 32px;
 }
 
 .about-skills {
